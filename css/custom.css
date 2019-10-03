@@ -42,7 +42,7 @@ body{
     background: #f6f6fc!important;
 }
 .bg-primary{
-    background: #2bc5b4;
+    background: #2bc5b4!important;
 }
 .bg-gray{
     background: #f6f6fc;
@@ -92,6 +92,12 @@ body{
     .features .col-md-3:nth-child(even){
         margin-top:80px;
     }
+    
+}
+@media only screen and (max-width: 768px) {
+    .target .col-md-4{
+        margin-top: 80px!important;
+    }   
 }
 .radius{
     border-top-left-radius: 25px;
@@ -126,10 +132,14 @@ body{
 .contact input{
     padding: 20px;
 }
-footer{
+footer .footer-top{
     padding: 20px;
 }
 footer ul li{
     list-style: none;
     padding: 12px;
+}
+.footer-bottom{
+    padding:20px;
+    color: #fff;
 }
